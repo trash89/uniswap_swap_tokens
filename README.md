@@ -8,13 +8,13 @@ brownie compile
 brownie run scripts/script.py
 ```
 
-Four brownie scripts are demonstrating different operations on Uniswap V2 contracts:
+The are five brownie scripts are demonstrating different operations on Uniswap V2 contracts:
 testUniswap_swap.py demonstrates the swap of tokens in Uniswap V2.
 testUniswap_liquidity.py deals with adding and removing liquidity from Uniswap liquidity pools.
 testUniswap_optimal.py deals with optimisation of amounts for swapping
-testUniswap_optimal.py deals with suboptimal way of inputing the amounts for swapping.
+testUniswap_suboptimal.py deals with suboptimal way of inputing the amounts for swapping.
+testUniswap_flashswap.py deals with flashswap on Unicode V2.
 
-After deploying from brownie :
 Liquidity swap:
 
 ![Liquidity Swap](swap.png)
@@ -30,3 +30,7 @@ SubOptimal Swap:
 Optimal Swap:
 
 ![Optimal Swap](optimal.png)
+
+Flashswap:
+
+![Optimal Swap](flashswap.png)
