@@ -8,7 +8,7 @@ brownie compile
 brownie run scripts/script.py
 ```
 
-The are five brownie scripts are demonstrating different operations on Uniswap V2 contracts:
+There are five brownie scripts demonstrating different operations on Uniswap V2 contracts:
 testUniswap_swap.py demonstrates the swap of tokens in Uniswap V2.
 testUniswap_liquidity.py deals with adding and removing liquidity from Uniswap liquidity pools.
 testUniswap_optimal.py deals with optimisation of amounts for swapping
