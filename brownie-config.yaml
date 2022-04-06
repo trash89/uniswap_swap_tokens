@@ -1,0 +1,32 @@
+dependencies:
+  - smartcontractkit/chainlink-brownie-contracts@0.4.0
+  - OpenZeppelin/openzeppelin-contracts@4.5.0
+  - Uniswap/v2-core@1.0.1
+  - Uniswap/v2-periphery@1.0.0-beta.0
+compiler:
+  solc:
+    remappings:
+      - "@chainlink=smartcontractkit/chainlink-brownie-contracts@0.4.0"
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.5.0"
+      - "@Uniswap/v2-core=Uniswap/v2-core@1.0.1"
+      - "@Uniswap/v2-periphery=Uniswap/v2-periphery@1.0.0-beta.0"
+networks:
+  default: mainnet-fork
+  mainnet-fork:
+    DAI: "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+    USDC: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    USDT: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    WETH: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    WBTC: "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599"
+    WETH_10: "0xf4BB2e28688e89fCcE3c0580D37d36A7672E8A9F"
+    WETH_WHALE: "0xf04a5cc80b1e94c69b48f5ee68a08cd2f09a7c3e"
+    DAI_WHALE: "0x020d0886d0a1b55e9362f9b00095db5775c7754d"
+    USDC_WHALE: "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE"
+    USDT_WHALE: "0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE"
+    WBTC_WHALE: "0xF977814e90dA44bFA03b6295A0616a897441aceC"
+    CDAI: "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643"
+    CUSDC: "0x39AA39c021dfbaE8faC545936693aC917d5E7563"
+    CWBTC: "0xccF4429DB6322D5C611ee964527D42E5d685DD6a"
+    CETH: "0x4Ddc2D193948926D02f9B1fE9e1daa0718270ED5"
+wallets:
+  from_key: ${PRIVATE_KEY}
