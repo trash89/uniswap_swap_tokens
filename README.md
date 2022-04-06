@@ -16,10 +16,17 @@ testUniswap_optimal.py deals with suboptimal way of inputing the amounts for swa
 
 After deploying from brownie :
 Liquidity swap:
+
 ![Liquidity Swap](swap.png)
+
 Adding/removing liquidity:
+
 ![Add/Remove liquidity](liquidity.png)
+
 SubOptimal Swap:
+
 ![SubOptimal Swap](suboptimal.png)
+
 Optimal Swap:
+
 ![Optimal Swap](optimal.png)
